@@ -6,3 +6,40 @@
     margin: 0;
     font-family: 'Roboto';
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu__items {
+    margin: 0 15px;
+}
+
+.menu__items:first-child {
+    margin-left: 60px
+}
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
